@@ -35,6 +35,6 @@ if ($product->create()) {
 } // if unable to create the product, tell the user
 else {
     echo '{';
-    echo '"message": "Unable to create product."';
+        echo '"message": "Unable to create product."';
     echo '}';
 }

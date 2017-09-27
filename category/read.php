@@ -43,7 +43,7 @@ if ($num > 0) {
         array_push($categories_arr["records"], $category_item);
     }
 
-    print_r($categories_arr);
+    echo json_encode($categories_arr);
 
 } else {
     echo json_encode(
